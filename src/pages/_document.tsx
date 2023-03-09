@@ -1,11 +1,10 @@
 import { Html, Head, Main, NextScript } from 'next/document';
 
-export default function Document() {
+function Document() {
   return (
     <Html>
       <Head>
         <link rel="icon" href="/favicon.jpeg" />
-        <title>Foodly</title>
       </Head>
       <body>
         <Main />
@@ -14,3 +13,5 @@ export default function Document() {
     </Html>
   );
 }
+
+export default Document;
